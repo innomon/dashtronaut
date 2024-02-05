@@ -7,7 +7,7 @@ import 'package:dashtronaut/presentation/layout/spacing.dart';
 import 'package:dashtronaut/presentation/puzzle/ui/puzzle_header.dart';
 import 'package:dashtronaut/presentation/puzzle/ui/reset_puzzle_button.dart';
 import 'package:flutter/foundation.dart';
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart' hide DrawerButton;
 
 class PuzzleLayout implements LayoutDelegate {
   @override

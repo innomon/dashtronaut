@@ -47,10 +47,10 @@ class ResetPuzzleButton extends StatelessWidget {
           child: ElevatedButton(
             onPressed: () =>
                 initResetPuzzle(context, puzzleProvider, stopWatchProvider),
-            child: Row(
+            child: const Row(
               mainAxisAlignment: MainAxisAlignment.center,
               mainAxisSize: MainAxisSize.min,
-              children: const [
+              children: [
                 Icon(Icons.refresh),
                 SizedBox(width: 7),
                 Text('Reset', style: AppTextStyles.button),

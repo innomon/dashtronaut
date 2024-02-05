@@ -74,10 +74,10 @@ class AppDrawer extends StatelessWidget {
                       ],
                     ),
                   ),
-                  Expanded(
+                  const Expanded(
                     child: SingleChildScrollView(
                       child: Column(
-                        children: const [
+                        children: [
                           PuzzleSizeSettings(),
                           LatestScores(),
                         ],
@@ -95,9 +95,9 @@ class AppDrawer extends StatelessWidget {
                       border: Border(
                           top: BorderSide(color: Colors.white, width: 2)),
                     ),
-                    child: Column(
+                    child: const Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
-                      children: const [
+                      children: [
                         AppVersionSection(),
                         SizedBox(height: 5),
                         DrawerAppInfo(),
